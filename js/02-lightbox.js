@@ -17,6 +17,7 @@ galleryItems.forEach(element => {
     galleryLink.append(galleryImage)
     items.push(galleryLink)
 })
+
 gallery.append(...items)
 
 new SimpleLightbox('.gallery a', {
