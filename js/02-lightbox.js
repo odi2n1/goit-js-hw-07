@@ -5,7 +5,9 @@ const gallery = document.querySelector('.gallery')
 const items = []
 
 galleryItems.forEach(element => {
+
     const galleryLink = document.createElement('a')
+    
     galleryLink.className = 'gallery__link'
     galleryLink.href = element.original
     const galleryImage = document.createElement('img')
